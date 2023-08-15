@@ -1,0 +1,22 @@
+import random
+num = random.randint(0,10)
+attempts = 0
+guess = int(input("Can you crack the mysterious digit!? \nPick a number between 1 and 10:"))
+while attempts < 3:
+    attempts += 1
+    print("You have ", 3 - attempts, " tries left")
+    if(guess < num):
+        print("It is too small!")
+        guess = int(input("Re-enter a number: "))
+    elif(guess > num):
+        print("The number is too large!")
+        guess = int(input("Re-enter a number: "))
+    else:
+        break
+if(num == guess):
+    if (attempts <=3):
+         print("Congratulations! You unlocked the mysterious number")
+   
+if (num != guess):
+       print("Sorry bud, until next time!") 
+ 
