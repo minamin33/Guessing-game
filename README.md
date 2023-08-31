@@ -1,1 +1,1 @@
-# Guessing-game
+A fun interactive game that puts an user number- cracking skills to the test!  The game allows only 3 attempts to crack the mysterious number that lies between 0 and 10.  After each attempt, the code will give a hint on if the guess is too large or too small. With the hint it allows the user to make any adjustments to their strategy if needed.
