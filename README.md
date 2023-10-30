@@ -25,9 +25,10 @@ If the player exhausts all three attempts without guessing the correct number, t
 Usage
 
 Execution: 
+
 Run the Python program to start the number guessing game.
 
-Input: 
+Input:
 Input a number between 1 and 10 when prompted to guess the mysterious digit.
 
 Outcome:
